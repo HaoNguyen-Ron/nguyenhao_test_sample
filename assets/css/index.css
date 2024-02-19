@@ -55,7 +55,6 @@
 .login_card {
     max-width: 360px;
     margin-top: 20px;
-
 }
 
 .login_card-header {
@@ -101,7 +100,6 @@
 
 .tab_container {
     padding: 150px;
-    height: 653px;
 }
 
 .tab_button {
@@ -129,6 +127,10 @@
 .tab_content_list.active {
     display: block;
     padding: 0 100px;
+}
+
+.tab_content_list:not(.active) {
+    display: none;
 }
 
 .tab_content_list>p:nth-child(2) {
