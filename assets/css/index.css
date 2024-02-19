@@ -125,13 +125,15 @@
     background-color: var(--color-primary);
 }
 
+.tab_content_list_wrapper{
+    padding: 0 100px;
+}
 .tab_content_list {
     display: none;
 }
 
 .tab_content_list.active {
     display: block;
-    padding: 0 100px;
 }
 
 .tab_content_list:not(.active) {
