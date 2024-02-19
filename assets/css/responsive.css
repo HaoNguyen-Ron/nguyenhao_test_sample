@@ -69,6 +69,26 @@
 
 
 @media screen and (max-width: 1068px) {
+
+    .login_container {
+        background-image: url(../images/signUpImage.png);
+        height: calc(713px - 72px);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+        animation: animatedBackground 10s linear infinite alternate;
+    }
+
+    @keyframes animatedBackground {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 100% 0;
+        }
+    }
+
     .img_container {
         padding: 0 100px;
     }
@@ -155,6 +175,12 @@
     }
 }
 
+@media screen and (max-width:711px) {
+    .tab_content_list.active {
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width:502px) {
     .navbar_container {
         justify-content: space-between;
@@ -171,22 +197,7 @@
     }
 
     .login_container {
-        background-image: url(../images/signUpImage.png);
         height: auto;
-        background-repeat: no-repeat;
-        background-position: 0px 0px;
-        background-repeat: repeat-x;
-        animation: animatedBackground 10s linear infinite alternate;
-    }
-
-    @keyframes animatedBackground {
-        from {
-            background-position: 0 0;
-        }
-
-        to {
-            background-position: 100% 0;
-        }
     }
 
     .img_item {
@@ -196,15 +207,6 @@
     .left-content .button2 {
         margin-left: 10px;
     }
-
-    /* 
-    .login_reponsive_button {
-        width: 100%;
-    }
-
-    .login-button_container button {
-        border-radius: 0;
-    } */
 
     .tab_content {
         flex-direction: column;
