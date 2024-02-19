@@ -125,9 +125,10 @@
     background-color: var(--color-primary);
 }
 
-.tab_content_list_wrapper{
+.tab_content_list_wrapper {
     padding: 0 100px;
 }
+
 .tab_content_list {
     display: none;
 }
@@ -225,7 +226,15 @@ body>div>main>section>div:nth-child(3)>div>div.sub_section_content {
 
 .contact_container .login_card-input .left-content,
 .contact_container .login_card-input .right-content {
-    padding: 20px 40px;
+    padding: 20px 0;
+}
+
+.contact_container .login_card-input .right-content {
+    padding-left: 40px;
+}
+
+.contact_container .login_card-input .left-content {
+    padding-right: 40px;
 }
 
 .footer_container {
