@@ -201,14 +201,15 @@
         justify-content: center;
     }
 
-    .tab_content_list b {
-        font-size: 19px;
-    }
-
+    
     .tab_content_list.active {
         margin-left: 0px;
     }
-
+    
+    .tab_content_list b {
+        font-size: 19px;
+    }
+    
     .tab_content_image {
         display: flex;
         justify-content: center;

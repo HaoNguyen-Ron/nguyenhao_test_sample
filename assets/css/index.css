@@ -110,6 +110,7 @@
     line-height: 112px;
     font-weight: bold;
     border: none;
+    transition: background-color 0.5s ease;
 }
 
 .tab_button:hover {
